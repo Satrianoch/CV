@@ -11,12 +11,33 @@
 		<script src='js/script.js'></script>
 	</head>
 <body>
+	<nav class='navbar navbar-default navbar-fixed-top'>
+		<div class='container'>
+			<div class='navbar-header'>
+				<button data-toggle='collapse' data-target='#myNavbar' class='navbar-toggle'>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+				</button>
+			</div>
+			<div class='collapse navbar-collapse' id='myNavbar'>
+				<ul class='nav navbar-nav'>
+					<li><a href='#about'>Moi</a></li>
+					<li><a href='#skills'>Compétences</a></li>
+					<li><a href='#experience'>Expérience</a></li>
+					<li><a href='#education'>Education</a></li>
+					<li><a href='#portfolio'>Portofolio</a></li>
+					<li><a href='#recommandations'>Recommandations</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<section id='about' class='container-fluid'>
-		<div class='col-xs-8 col-md-4 profile-picture'>
-			<img src='images/me.jpg' alt='John' class='img-circle'>
+		<div  class='col-xs-8 col-md-4 profile-picture'>
+			<img style='display:inline-block' width='400' height='400' src='images/me.jpg' class='img-circle'>
 		</div>
 		<div class='heading'>
-			<h1>Hello, c'est moi John</h1>
+			<h1>Hello, c'est Satrianoch</h1>
 			<h3>Développeur Web</h3>
 			<a href='docs/CV-JOHN.rar' class='button1'>Télécharger CV</a>
 		</div>
@@ -31,39 +52,39 @@
 			<div class='row'>
 				<div class='col-md-6'>
 					<div class='progress'>
-						<div class='progress-bar' role='progressbar' aria-valuenow='85' style='width:85%'>
-							<h5>HTML 85%</h5>
-						</div>
-					</div>
-					
-					<div class='progress'>
-						<div class='progress-bar' role='progressbar' aria-valuenow='85' style='width:85%'>
-							<h5>CSS 85%</h5>
-						</div>
-					</div>
-					
-					<div class='progress'>
-						<div class='progress-bar' role='progressbar' aria-valuenow='90' style='width:90%'>
-							<h5>JAVASCRIPT 90%</h5>
-					</div>
-					</div>
-				</div>
-				<div class='col-md-6'>
-					<div class='progress'>
-						<div class='progress-bar' role='progressbar' aria-valuenow='85' style='width:85%'>
-							<h5>JQUERY 85%</h5>
-						</div>
-					</div>
-					
-					<div class='progress'>
-						<div class='progress-bar' role='progressbar' aria-valuenow='80' style='width:80%'>
-							<h5>BOOTSTRAP 80%</h5>
+						<div class='progress-bar' role='progressbar' aria-valuenow='75' style='width:75%'>
+							<h5>HTML 75%</h5>
 						</div>
 					</div>
 					
 					<div class='progress'>
 						<div class='progress-bar' role='progressbar' aria-valuenow='75' style='width:75%'>
-							<h5>ANGULAR 75%</h5>
+							<h5>CSS 75%</h5>
+						</div>
+					</div>
+					
+					<div class='progress'>
+						<div class='progress-bar' role='progressbar' aria-valuenow='80' style='width:80%'>
+							<h5>JAVASCRIPT 80%</h5>
+					</div>
+					</div>
+				</div>
+				<div class='col-md-6'>
+					<div class='progress'>
+						<div class='progress-bar' role='progressbar' aria-valuenow='75' style='width:75%'>
+							<h5>JQUERY 75%</h5>
+						</div>
+					</div>
+					
+					<div class='progress'>
+						<div class='progress-bar' role='progressbar' aria-valuenow='60' style='width:60%'>
+							<h5>BOOTSTRAP 60%</h5>
+						</div>
+					</div>
+					
+					<div class='progress'>
+						<div class='progress-bar' role='progressbar' aria-valuenow='50' style='width:50%'>
+							<h5>ANGULAR 50%</h5>
 						</div>
 					</div>
 				</div>
@@ -85,7 +106,7 @@
 								<div class='timeline-heading'>
 									<h3>GOOGLE</h3>
 									<h4>Développeur Web Sénior</h4>
-									<p class='text-muted'><small class='glyphicon glyphicon-time'></small> 2013 - 2015</p>
+									<p class='text-muted'><small class='glyphicon glyphicon-time'></small> 2015 - 2017</p>
 								</div>
 								<div class='timeline-body'>
 									<p>Ajout de la possibilité d'écouter une traduction dans Google Translate.</p>
@@ -103,7 +124,7 @@
 								<div class='timeline-heading'>
 									<h3>FACEBOOK</h3>
 									<h4>Développeur Web</h4>
-									<p class='text-muted'><small class='glyphicon glyphicon-time'></small> 2013 - 2015</p>
+									<p class='text-muted'><small class='glyphicon glyphicon-time'></small> 2014 - 2015</p>
 								</div>
 								<div class='timeline-body'>
 									<p>Développement du bouton Share pour les applis Web mobile</p>
@@ -120,7 +141,7 @@
 								<div class='timeline-heading'>
 									<h3>TWITTER</h3>
 									<h4>Développeur Web JUNIOR</h4>
-									<p class='text-muted'><small class='glyphicon glyphicon-time'></small> 2013 - 2015</p>
+									<p class='text-muted'><small class='glyphicon glyphicon-time'></small> 2012 - 2013</p>
 								</div>
 								<div class='timeline-body'>
 									<p>Création et Développement du Retweet pour l'appli Web</p>
@@ -135,12 +156,16 @@
 	
 	<section id='education'>
 		<div class='container'>
+			<div class='red-divider'></div>
+				<div class='heading'>
+				<h2>Education</h2>
+			</div>
 			<div class='row'>
 				<div class='col-sm-6'>
 					<div class='education-block'>
-						<h5>2002 - 2006</h5>
+						<h5>2011 - 2015</h5>
 						<span class='glypicon glypicon-education'></span>
-						<h3>Ecole polytechnique Paris</h3>
+						<h3>Université libre de Bruxelles</h3>
 						<h4>Diplôme d'ingénieur informatique</h4>
 						<div class='red-divider'></div>
 						<p>Intelligence Artificielle</p>
@@ -149,16 +174,17 @@
 				</div>
 				<div class='col-sm-6'>
 					<div class='education-block'>
-						<h5>2007</h5>
+						<h5>2016</h5>
 						<span class='glypicon glypicon-education'></span>
-						<h3>Apprendre-a-coder.com</h3>
+						<h3>Openclassroom.com</h3>
 						<h4>Formation online Developpeur Web</h4>
 						<div class='red-divider'></div>
 						<p>HTML/CSS, Javascript, Jquery</p>
 						<p>Responsive Design</p>
 					</div>
+				</div>
 			</div>
-		</div>	
+		</div>
 	</section>
 	
 	<section id='portfolio'>
@@ -218,15 +244,15 @@
 				</ol>
 				<div class='carousel-inner'>
 					<div class='item active'>
-						<h3>Merci John, t'es le meilleur</h3>
+						<h3>Merci Momo, t'es le meilleur</h3>
 						<h4>Larry Page, Google</h4>
 					</div>
 					<div class='item'>
-						<h3>Merci John de m'avoir appris à coder</h3>
+						<h3>Merci Amo de m'avoir appris à coder</h3>
 						<h4>Mark Zuckerberg, Facebook Founder</h4>
 					</div>
 					<div class='item'>
-						<h3>L'esprit le plus créatif que j'ai pu rencontrer</h3>
+						<h3>L'esprit le plus créatif que j'ai pu rencontrer dans ma vie</h3>
 						<h4>Jack Dorsey, Twitter Founder</h4>
 					</div>
 				</div>
@@ -244,7 +270,7 @@
 		<a href='#about'>
 			<span class='glyphicon glyphicon-chevron-up'></span>
 		</a>
-		<h5>Copyright 2016 apprendre-a-coder.com</h5>
+		<h5>Copyright 2017 Satrianoch</h5>
 	</footer>
 </body>
 </html>
